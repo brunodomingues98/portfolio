@@ -1,10 +1,33 @@
+@import url("/assets/fonts/SeymourOne-Regular.ttf");
 /* Inicio: Menu */
+body {
+    background-color: #c4bbb329;
+}
+nav {
+    background-color: #c4bbb3;    
+    font-family: 'Seymour One', sans-serif;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
 nav.menu ul {
     display: flex;
     justify-content: space-around;
     padding: 20px 0px 0px 0px;
 }
 nav.menu a {
+    color: #000;
     text-decoration: none;
 }
 /* Fim: Menu */
+
+/* Inicio: Main */
+section .d-skills {
+    display: flex;
+    justify-content: space-between;
+}
+section.skills img {
+    width: 400px;
+    height: 200px;
+}
+/* Fim: Main */
