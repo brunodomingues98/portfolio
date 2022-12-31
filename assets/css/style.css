@@ -7,8 +7,7 @@ nav {
     background-color: #c4bbb3;    
     font-family: 'Seymour One', sans-serif;
     font-size: 18px;
-    padding-top: 10px;
-    padding-bottom: 25px;
+    height: 60px;
 }
 nav.menu ul {
     display: flex;
@@ -19,15 +18,25 @@ nav.menu a {
     color: #000;
     text-decoration: none;
 }
+div.banner img {
+    width: 100%;
+}
+@media screen and (max-width: 992px) {
+    
+}
 /* Fim: Menu */
 
 /* Inicio: Main */
+main {
+    margin-top: 5vw;
+}
 section .d-skills {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 5vw;
 }
 section.skills img {
-    width: 400px;
-    height: 200px;
+    width: 445px;
+    height: 245px;
 }
 /* Fim: Main */
