@@ -38,6 +38,7 @@ section .d-skills {
 section.skills img {
     width: 445px;
     height: 245px;
+    margin-top: 2vw;
 }
 /* Fim: Main */
 
