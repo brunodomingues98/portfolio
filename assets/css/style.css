@@ -4,7 +4,7 @@ body {
     background-color: #c4bbb329;
 }
 nav {
-    background-color: #c4bbb3;    
+    background-color: #000;    
     font-family: 'Seymour One', sans-serif;
     font-size: 18px;
     height: 60px;
@@ -15,7 +15,7 @@ nav.menu ul {
     padding: 20px 0px 0px 0px;
 }
 nav.menu a {
-    color: #000;
+    color: #6b6a68;
     text-decoration: none;
 }
 div.banner img {
@@ -40,3 +40,33 @@ section.skills img {
     height: 245px;
 }
 /* Fim: Main */
+
+/* Inicio: Footer */
+footer{
+    background-color: #000;
+    color: #6b6a68;
+    display: flex;
+}
+.logo img {
+    padding-top: 0vw;
+    height: 250px;
+    width: 250px;
+}
+.endereco, .contato {
+    padding-top: 5vw;
+}
+.endereco {
+    text-align: left;
+}
+.contato ul {
+    margin-bottom: 10px;
+}
+.contato li {
+    padding-bottom: 10px;
+}
+.contato a {
+    color: #6b6a68;
+    padding-left: 5px;
+    text-decoration: none;
+} 
+/* Fim: Footer */
