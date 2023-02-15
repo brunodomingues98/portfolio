@@ -14,22 +14,19 @@
             <nav class="menu">
                 <ul>
                     <li>
-                        <a href="#">Habilidades</a>
+                        <a href="#projetos">Projetos</a>
                     </li>
                     <li>
-                        <a href="#">Jobs</a>
+                        <a href="#posts">Posts</a>
                     </li>
                     <li>
-                        <a href="#">História</a>
-                    </li>
-                    <li>
-                        <a href="#">Contato</a>
+                        <a href="#resumo">Resumo</a>
                     </li>
                 </ul>
             </nav>
         </header>
         <main>
-            <section class="skills">
+            <section class="skills" id="resumo">
                 <div class="container">
                     <div class="row">
                         <div class="d-skills">
@@ -51,7 +48,7 @@
                     </div>
                 </div>
             </section>
-            <section class="projects">
+            <section class="projects" id="projetos">
                 <div class="container">
                     <div class="row">
                         <h1>Projetos</h1>
@@ -77,15 +74,17 @@
                                 <img class="perfil" src="/assets/images/angular.png" alt="">
                             </div>
                             <div class="col-6">
-                                <h2>Bytebank</h2>
-                                <p>Projeto desenvolvido com fins de aprendizagem de transferências entre contas usando as seguintes tecnologias.</p>
+                                <h2>Formação Front-End</h2>
+                                <p>Com foco em criação de páginas web, com uso de HTML, CSS, JavaScript, formação divida em partes, sendo elas:
+                                    <br>
+                                    HTML & CSS; Front end UI; Sites interativos, integrando JavaScript ao Navegador;
+                                </p>
                                 <br>
-                                <span class="tech">TypeScript</span>
-                                <span class="tech">SCSS</span>
                                 <span class="tech">HTML</span>
+                                <span class="tech">CSS</span>
                                 <span class="tech">JavaScript</span>
                                 <button class="btn saiba-mais">
-                                    <a href="https://github.com/brunodomingues98/bytebank" target="_blank">Saiba Mais</a>
+                                    <a href="https://github.com/brunodomingues98/formacaoFrontend" target="_blank">Saiba Mais</a>
                                 </button>
                             </div>
                         </div> 
@@ -94,22 +93,37 @@
                                 <img class="perfil" src="/assets/images/angular.png" alt="">
                             </div>
                             <div class="col-6">
-                                <h2>Bytebank</h2>
-                                <p>Projeto desenvolvido com fins de aprendizagem de transferências entre contas usando as seguintes tecnologias.</p>
+                                <h2>Mata Mosquito</h2>
+                                <p>Jogo desenvolvido em projeto da universidade.</p>
                                 <br>
-                                <span class="tech">TypeScript</span>
-                                <span class="tech">SCSS</span>
                                 <span class="tech">HTML</span>
+                                <span class="tech">CSS</span>                                
                                 <span class="tech">JavaScript</span>
                                 <button class="btn saiba-mais">
-                                    <a href="https://github.com/brunodomingues98/bytebank" target="_blank">Saiba Mais</a>
+                                    <a href="https://github.com/brunodomingues98/matamosquito" target="_blank">Saiba Mais</a>
+                                </button>
+                            </div>
+                        </div> 
+                        <div class="d-projects">
+                            <div class="col-4">
+                                <img class="perfil" src="/assets/images/angular.png" alt="">
+                            </div>
+                            <div class="col-6">
+                                <h2>Negociações</h2>
+                                <p>Usando a versão do ES2015, foi feito um sistema para incluir Negociações, com os campos: Data, Quantidade e Valor. Foi implementado também a opção de importar as negociações já cadastradas.</p>
+                                <br>
+                                <span class="tech">TypeScript</span>                                                            
+                                <span class="tech">JavaScript</span>
+                                <span class="tech">HTML</span>
+                                <button class="btn saiba-mais">
+                                    <a href="https://github.com/brunodomingues98/negociacoesTS" target="_blank">Saiba Mais</a>
                                 </button>
                             </div>
                         </div> 
                     </div>
                 </div>
             </section>
-            <section class="posts">
+            <section class="posts" id="posts">
                 <div class="container">
                     <div class="row">
                          <h1>Posts</h1>
@@ -123,6 +137,9 @@
                                         Para deixar seus commits com uma ótima semântica e mais bonito, facilitando
                                         o entendimento do próximo dev, explicando a intensão da nova atualização.
                                     </p>
+                                    <button class="btn leia-mais">
+                                        <a href="https://github.com/brunodomingues98/negociacoesTS" target="_blank">Leia Mais</a>
+                                    </button>
                                 </div>
                             </div>
                             <div class="col-4">
@@ -134,6 +151,9 @@
                                         Para deixar seus commits com uma ótima semântica e mais bonito, facilitando
                                         o entendimento do próximo dev, explicando a intensão da nova atualização.
                                     </p>
+                                    <button class="btn leia-mais">
+                                        <a href="https://github.com/brunodomingues98/negociacoesTS" target="_blank">Leia Mais</a>
+                                    </button>
                                 </div>
                             </div>
                             <div class="col-4">
@@ -145,6 +165,9 @@
                                         Para deixar seus commits com uma ótima semântica e mais bonito, facilitando
                                         o entendimento do próximo dev, explicando a intensão da nova atualização.
                                     </p>
+                                    <button class="btn leia-mais">
+                                        <a href="https://github.com/brunodomingues98/negociacoesTS" target="_blank">Leia Mais</a>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -158,7 +181,7 @@
             </div>
             <div class="col-4 endereco">
                 Pouso Alegre - MG <br>
-                p.brunodomingues@gmail.com
+                <img src="/assets/images/icons/c-circle.svg">Desenvolvido por Bruno Domingues
             </div>
             <div class="col-4 contato">
                 <ul>
@@ -174,6 +197,11 @@
                         <img src="/assets/images/icons/linkedin.svg">
                         <a href="https://www.linkedin.com/in/bruno-domingues-33288b16a/" target="_blank">LinkedIn</a>
                     </li>
+                    <li>
+                        <img src="/assets/images/icons/envelope.svg">
+                        <a href="mailto:p.brunodomingues@gmail.com?subject=Estou entrando em contato via portfólio" target="_blank">p.brunodomingues@gmail.com</a>
+                    </li>
+                    
                 </ul>
             </div>
         </footer>
