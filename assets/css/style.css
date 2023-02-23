@@ -35,11 +35,50 @@ nav {
     .d-skills {
         flex-direction: column;
     }
+
     .d-projects {
         flex-direction: column;
+        margin: 10px auto !important;
+        width: 90% !important;
     }
+    .d-projects img {
+        width: 361px !important;
+        height: 255px !important;
+    }
+    .d-projects .texto {
+        padding-top: 20px;
+        padding-left: 0vw !important;
+    }
+    .d-projects p {
+        width: 70vw !important;
+    }
+    .saiba-mais {
+        margin-top: 5vw !important;
+        margin-bottom: 3vw !important;
+    }
+
     .d-posts {
         flex-direction: column;
+        margin: 0 auto !important;
+        width: 100%;
+    }
+    .d-posts .card {
+        margin: 10px auto !important;
+        height: 45vh !important;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+    .logo img {
+        display: none;
+    }
+    .endereco, .contato {
+        margin: 0 auto;
+        width: 70%;
+    }
+    .contato > ul > li > img {
+        margin-left: -32px; 
     }
 }
 
