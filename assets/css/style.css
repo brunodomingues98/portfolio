@@ -1,73 +1,200 @@
 @import url("/assets/fonts/SeymourOne-Regular.ttf");
+
 /* Inicio: Menu */
 body {
-    background-color: #c4bbb329;
+    background-color: #f9fafb;
 }
+
 nav {
-    background-color: #000;    
+    background-color: #000;
     font-family: 'Seymour One', sans-serif;
     font-size: 18px;
     height: 60px;
 }
-nav.menu ul {
+
+.menu ul {
     display: flex;
-    justify-content: space-around;
-    padding: 20px 0px 0px 0px;
+    justify-content: flex-start;
+    padding: 20px 0px 0px 20px;
 }
-nav.menu a {
+
+.menu ul>li {
+    padding-left: 20px;
+}
+
+.menu a {
     color: #6b6a68;
     text-decoration: none;
 }
-div.banner img {
+
+.banner img {
     width: 100%;
 }
-@media screen and (max-width: 992px) {
-    
-}
+
+@media screen and (max-width: 992px) {}
+
 /* Fim: Menu */
 
 /* Inicio: Main */
 main {
-    margin-top: 5vw;
+    margin: 5vw 0 5vw 0;
 }
-section .d-skills {
+
+section {
+    margin: 5vw 0 5vw 0;
+}
+
+.d-skills {
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 5vw;
+    justify-content: space-around;
+    margin: 0 auto;
+    font-size: 18px;
 }
-section.skills img {
-    width: 445px;
-    height: 245px;
-    margin-top: 2vw;
+
+.skills img {
+    border-radius: 100%;
+    width: 300px;
 }
+
+.d-projects {
+    display: flex;
+    border: 1px solid #6b6a68;
+    height: 100%;
+    padding-top: 30px;
+    margin: 1vw 0 1vw 0;
+}
+
+.d-projects h2 {
+    font-size: 22px;
+}
+
+.d-projects p {
+    font-size: 18px;
+}
+
+.d-projects img {
+    width: 415px;
+    height: 301px;
+    margin-left: -0.8vw;
+    margin-top: -1.9vw;
+}
+
+.tech {
+    border: 1px solid #6b6a68;
+    background-color: #6b6a68;
+    border-radius: 9px;
+    color: #fff;
+    padding: 10px;
+}
+
+.saiba-mais {
+    border: 2px solid #000;
+    background-color: transparent;
+    border-radius: 30px;
+    display: grid;
+    margin-top: 3vw;
+    margin-bottom: 1vw;
+    width: 200px;
+    height: 50px;
+}
+
+.saiba-mais:hover {
+    border: 2px solid #6b6a68;
+    background-color: #fff;
+    color: #6b6a68;
+}
+
+.saiba-mais a {
+    color: #000;
+    font-weight: 450;
+    padding-top: 5px;
+    text-decoration: none;
+}
+
+.saiba-mais a:hover {
+    text-decoration: none;
+}
+
+.d-posts {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -10px;
+}
+
+.d-posts .card {
+    border: 1px solid #0000002e;
+    box-shadow: 0px 6px 10px 0px #0000002e;
+    height: 40vh;
+    margin-left: 10px;
+}
+
+.d-posts h3 {
+    font-size: 22px;
+    font-weight: 500;
+    padding: 10px 0px 10px 10px;
+    text-align: left;
+}
+
+.d-posts p {
+    font-size: 18px;
+    padding: 20px 0px 0px 20px;
+    text-align: left;
+}
+.leia-mais {
+    border: 2px solid #6b6a68;
+    background-color: #6b6a68;
+    border-radius: 30px;    
+    display: grid;
+    margin: 0 auto;
+    width: 200px;
+    height: 50px;
+}
+.leia-mais a {
+    color: #fff;
+    font-weight: 450;
+    padding-top: 5px;
+    text-decoration: none;
+}
+
 /* Fim: Main */
 
 /* Inicio: Footer */
-footer{
+footer {
     background-color: #000;
     color: #6b6a68;
     display: flex;
 }
+
 .logo img {
     padding-top: 0vw;
     height: 250px;
     width: 250px;
 }
-.endereco, .contato {
+
+.endereco,
+.contato {
     padding-top: 5vw;
 }
+
 .endereco {
-    text-align: left;
+    text-align: left;    
 }
+.endereco img {
+    padding-right: 5px;
+}
+
 .contato ul {
     margin-bottom: 10px;
 }
+
 .contato li {
     padding-bottom: 10px;
 }
+
 .contato a {
     color: #6b6a68;
     padding-left: 5px;
     text-decoration: none;
-} 
+}
+
 /* Fim: Footer */
