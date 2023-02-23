@@ -14,92 +14,166 @@
             <nav class="menu">
                 <ul>
                     <li>
-                        <a href="#">Habilidades</a>
+                        <a href="#projetos">Projetos</a>
                     </li>
                     <li>
-                        <a href="#">Jobs</a>
+                        <a href="#posts">Posts</a>
                     </li>
                     <li>
-                        <a href="#">História</a>
-                    </li>
-                    <li>
-                        <a href="#">Contato</a>
+                        <a href="#resumo">Resumo</a>
                     </li>
                 </ul>
             </nav>
-            <div class="banner">
-                <img src="./assets/images/banner.webp" alt="banner">
-            </div>
         </header>
         <main>
-            <section class="skills">
+            <section class="skills" id="resumo">
                 <div class="container">
                     <div class="row">
                         <div class="d-skills">
                             <div class="col-4">
-                                <img src="assets/images/skills.jpg" alt="Skills">
+                                <img class="perfil" src="assets/images/bruno.jpg" alt="Bruno Domingues">
                             </div>
                             <div class="col-6">
-                                <h1>Olá, muito prazer</h1>
-                                <p> 
-                                    Deixe-me apresentar, me chamo Bruno Domingues e tenho 24 anos. <br><br>
-                                    Minha vida no desenvolvimento começou quando eu tinha 12 anos, com o primeiro contato com desenvolvimento web usando HTML e CSS. <br>
-                                    Aos 14 anos concluí o curso em Tecnlogia da Informação, aprimorando meus conhecimentos e âmpliando minha curva de aprendizagem,
-                                    tendo contato com Java SE, Java EE, Banco de Dados, Análise e Projeto de Sistemas, POO além de conhecimentos em Fundamentos de Redes, Controle e Segurança de Sistemas, Sistemas Operacionais...
+                                <h2>Olá</h2>
+                                <p>
+                                    Meu nome é Bruno, sou fã de tecnologia e acredito que esse é o caminho para um futuro melhor.
+                                    Tenho como objetivo, fazer parte da geração que está moldando o futuro por meios tecnológicos, compartilhando conhecimento, experiências e ideias que podem ser inovadoras.
+                                    <hr>
+                                    Interesses: Música, Tecnologia no esporte, IA, IoT, Computação Quântica.
+                                    <hr>
+                                    Vida longa e próspera
                                 </p>                                
                             </div>
                         </div>   
-                    </div>                
+                    </div>
                 </div>
             </section>
-            <section class="jobs">
+            <section class="projects" id="projetos">
                 <div class="container">
                     <div class="row">
-                        <div class="d-jobs">
-                            <div class="col-12">
-                                <p> 
-                                    Sendo programador de uma agência de publicidade com 18 anos, tive meu primeiro contato com desenvolvimento com as boas práticas de programação, usando tecnologias como PHP, JavaScript, MySQL realizava a criação e manutenção de páginas web. Além do desenvolvimento de E-commerces usando OpenCart e Magento, landing pages com WordPress.
-                                    <br><br>
-                                    Outras experiências que tive foi como desenvolvedor Front-End de uma pequena startup, com projetos como: geração de boletos, entrada e saída de almoxarifado, usando Vue.js integrando ao MongoDB.
-                                    <br><br>
-                                    Em meu cargo atual no Bradesco, atuo como Front-End no processo de manutenção e desenvolvimento de landing pages, além de atuar numa frente voltada para a performance, onde realizamos melhoria de desempenho, correção de bugs, melhoria de código com boas práticas de programação.
+                        <h1>Projetos</h1>
+                        <div class="d-projects">                           
+                            <div class="col-4">
+                                <img class="perfil" src="/assets/images/angular.png" alt="">
+                            </div>
+                            <div class="col-6">
+                                <h2>Bytebank</h2>
+                                <p>Projeto desenvolvido com fins de aprendizagem de transferências entre contas usando as seguintes tecnologias.</p>
+                                <br>
+                                <span class="tech">TypeScript</span>
+                                <span class="tech">SCSS</span>
+                                <span class="tech">HTML</span>
+                                <span class="tech">JavaScript</span>
+                                <button class="btn saiba-mais">
+                                    <a href="https://github.com/brunodomingues98/bytebank" target="_blank">Saiba Mais</a>
+                                </button>
+                            </div>
+                        </div> 
+                        <div class="d-projects">
+                            <div class="col-4">
+                                <img class="perfil" src="/assets/images/angular.png" alt="">
+                            </div>
+                            <div class="col-6">
+                                <h2>Formação Front-End</h2>
+                                <p>Com foco em criação de páginas web, com uso de HTML, CSS, JavaScript, formação divida em partes, sendo elas:
+                                    <br>
+                                    HTML & CSS; Front end UI; Sites interativos, integrando JavaScript ao Navegador;
                                 </p>
+                                <br>
+                                <span class="tech">HTML</span>
+                                <span class="tech">CSS</span>
+                                <span class="tech">JavaScript</span>
+                                <button class="btn saiba-mais">
+                                    <a href="https://github.com/brunodomingues98/formacaoFrontend" target="_blank">Saiba Mais</a>
+                                </button>
+                            </div>
+                        </div> 
+                        <div class="d-projects">
+                            <div class="col-4">
+                                <img class="perfil" src="/assets/images/angular.png" alt="">
+                            </div>
+                            <div class="col-6">
+                                <h2>Mata Mosquito</h2>
+                                <p>Jogo desenvolvido em projeto da universidade.</p>
+                                <br>
+                                <span class="tech">HTML</span>
+                                <span class="tech">CSS</span>                                
+                                <span class="tech">JavaScript</span>
+                                <button class="btn saiba-mais">
+                                    <a href="https://github.com/brunodomingues98/matamosquito" target="_blank">Saiba Mais</a>
+                                </button>
+                            </div>
+                        </div> 
+                        <div class="d-projects">
+                            <div class="col-4">
+                                <img class="perfil" src="/assets/images/angular.png" alt="">
+                            </div>
+                            <div class="col-6">
+                                <h2>Negociações</h2>
+                                <p>Usando a versão do ES2015, foi feito um sistema para incluir Negociações, com os campos: Data, Quantidade e Valor. Foi implementado também a opção de importar as negociações já cadastradas.</p>
+                                <br>
+                                <span class="tech">TypeScript</span>                                                            
+                                <span class="tech">JavaScript</span>
+                                <span class="tech">HTML</span>
+                                <button class="btn saiba-mais">
+                                    <a href="https://github.com/brunodomingues98/negociacoesTS" target="_blank">Saiba Mais</a>
+                                </button>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </section>
+            <section class="posts" id="posts">
+                <div class="container">
+                    <div class="row">
+                         <h1>Posts</h1>
+                         <div class="d-posts">
+                            <div class="col-4">
+                                <div class="card">
+                                    <h3>
+                                        Commits bonitos
+                                    </h3>
+                                    <p>
+                                        Para deixar seus commits com uma ótima semântica e mais bonito, facilitando
+                                        o entendimento do próximo dev, explicando a intensão da nova atualização.
+                                    </p>
+                                    <button class="btn leia-mais">
+                                        <a href="https://github.com/brunodomingues98/negociacoesTS" target="_blank">Leia Mais</a>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card">
+                                    <h3>
+                                        Commits bonitos
+                                    </h3>
+                                    <p>
+                                        Para deixar seus commits com uma ótima semântica e mais bonito, facilitando
+                                        o entendimento do próximo dev, explicando a intensão da nova atualização.
+                                    </p>
+                                    <button class="btn leia-mais">
+                                        <a href="https://github.com/brunodomingues98/negociacoesTS" target="_blank">Leia Mais</a>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card">
+                                    <h3>
+                                        Commits bonitos
+                                    </h3>
+                                    <p>
+                                        Para deixar seus commits com uma ótima semântica e mais bonito, facilitando
+                                        o entendimento do próximo dev, explicando a intensão da nova atualização.
+                                    </p>
+                                    <button class="btn leia-mais">
+                                        <a href="https://github.com/brunodomingues98/negociacoesTS" target="_blank">Leia Mais</a>
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <!-- <section class="history">
-                <div class="container">
-                    <div class="row">
-                        <div class="d-history">
-                            <div class="col-12">
-                                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                                    It has survived not only five centuries, but also the leap into electronic typesetting, 
-                                    remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets 
-                                    containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker 
-                                    including versions of Lorem Ipsum.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section> -->
-            <section class="contact">
-                <div class="container">
-                    <div class="row">
-                      <div class="col order-last">
-                        <ul>
-                            <li>AG3</li>
-                            <li>Corporativa</li>
-                            <li>Bradesco</li>
-                        </ul>
-                      </div>                      
-                    </div>
-                  </div>
-            </section>            
         </main>
         <footer>
             <div class="col-4 logo">
@@ -107,7 +181,7 @@
             </div>
             <div class="col-4 endereco">
                 Pouso Alegre - MG <br>
-                p.brunodomingues@gmail.com
+                <img src="/assets/images/icons/c-circle.svg">Desenvolvido por Bruno Domingues
             </div>
             <div class="col-4 contato">
                 <ul>
@@ -123,6 +197,11 @@
                         <img src="/assets/images/icons/linkedin.svg">
                         <a href="https://www.linkedin.com/in/bruno-domingues-33288b16a/" target="_blank">LinkedIn</a>
                     </li>
+                    <li>
+                        <img src="/assets/images/icons/envelope.svg">
+                        <a href="mailto:p.brunodomingues@gmail.com?subject=Estou entrando em contato via portfólio" target="_blank">p.brunodomingues@gmail.com</a>
+                    </li>
+                    
                 </ul>
             </div>
         </footer>
