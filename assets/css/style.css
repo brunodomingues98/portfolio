@@ -31,57 +31,6 @@ nav {
     width: 100%;
 }
 
-@media screen and (max-width: 992px) {
-    .d-skills {
-        flex-direction: column;
-    }
-
-    .d-projects {
-        flex-direction: column;
-        margin: 10px auto !important;
-        width: 90% !important;
-    }
-    .d-projects img {
-        width: 361px !important;
-        height: 255px !important;
-    }
-    .d-projects .texto {
-        padding-top: 20px;
-        padding-left: 0vw !important;
-    }
-    .d-projects p {
-        width: 70vw !important;
-    }
-    .saiba-mais {
-        margin-top: 5vw !important;
-        margin-bottom: 3vw !important;
-    }
-
-    .d-posts {
-        flex-direction: column;
-        margin: 0 auto !important;
-        width: 100%;
-    }
-    .d-posts .card {
-        margin: 10px auto !important;
-        height: 45vh !important;
-    }
-
-    footer {
-        flex-direction: column;
-    }
-    .logo img {
-        display: none;
-    }
-    .endereco, .contato {
-        margin: 0 auto;
-        width: 70%;
-    }
-    .contato > ul > li > img {
-        margin-left: -32px; 
-    }
-}
-
 /* Fim: Menu */
 
 /* Inicio: Main */
@@ -283,3 +232,119 @@ footer {
     background-color: #4d4c4b;
 }
 /* Fim: Botão top */
+
+/* Inicio: Medias de renderização */
+@media only screen and (max-width: 550px) {
+    .d-skills {
+        flex-direction: column;
+    }
+
+    .d-projects {
+        flex-direction: column;
+        margin: 10px auto ;
+        width: 90% ;
+    }
+    .d-projects img {
+        width: 361px ;
+        height: 255px ;
+    }
+    .d-projects .texto {        
+        margin-left: 0px;
+    }
+    .d-projects p {
+        width: 70vw ;
+    }
+    .saiba-mais {
+        margin-top: 5vw ;
+        margin-bottom: 3vw ;
+    }
+
+    .d-posts {
+        flex-direction: column;
+        margin: 0 auto ;
+        width: 100%;
+    }
+    .d-posts .card {
+        margin: 10px auto ;
+        height: 45vh ;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+    .logo img {
+        display: none;
+    }
+    .endereco, .contato {
+        margin: 0 auto;
+        width: 70%;
+    }
+    .contato > ul > li > img {
+        margin-left: -32px; 
+    }
+}
+@media only screen and (max-width: 768px) {
+    .skills img {
+        border-radius: 100%;
+        width: 270px;
+    }
+    .d-projects {
+        flex-direction: column;
+        margin: 10px auto ;
+        width: 90% ;
+    }
+    .d-projects img {
+        width: 646px;
+        height: 290px;
+        margin-left: -12px;
+    }
+    .d-projects .texto {        
+        margin-left: 0px;
+    }
+    .d-projects p {
+        width: 70vw ;
+    }
+    .saiba-mais {
+        margin-top: 5vw ;
+        margin-bottom: 3vw ;
+    }
+    .d-posts {
+        margin: 0 auto ;
+        width: 100%;
+    }
+    .d-posts p {
+        height: 200px;
+    }
+    .d-posts .card {
+        height: 60vh;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+    .logo img {
+        display: none;
+    }
+    .endereco, .contato {
+        margin: 0 auto;
+        width: 70%;
+    }
+    .contato > ul > li > img {
+        margin-left: -32px; 
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .d-projects .texto {
+        margin-left: 200px;
+    }
+    .d-posts .card {
+        height: 330px;
+    }
+    .d-posts p {
+        height: 150px;
+    }
+    .endereco, .contato {
+        padding-top: 7vw;
+    }
+}
+/* Fim: Medias de renderização */
