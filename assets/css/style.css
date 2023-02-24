@@ -234,53 +234,18 @@ footer {
 /* Fim: Botão top */
 
 /* Inicio: Medias de renderização */
-@media only screen and (max-width: 550px) {
-    .d-skills {
-        flex-direction: column;
-    }
-
-    .d-projects {
-        flex-direction: column;
-        margin: 10px auto ;
-        width: 90% ;
-    }
-    .d-projects img {
-        width: 361px ;
-        height: 255px ;
-    }
-    .d-projects .texto {        
-        margin-left: 0px;
-    }
-    .d-projects p {
-        width: 70vw ;
-    }
-    .saiba-mais {
-        margin-top: 5vw ;
-        margin-bottom: 3vw ;
-    }
-
-    .d-posts {
-        flex-direction: column;
-        margin: 0 auto ;
-        width: 100%;
+@media only screen and (max-width: 1024px) {
+    .d-projects .texto {
+        margin-left: 200px;
     }
     .d-posts .card {
-        margin: 10px auto ;
-        height: 45vh ;
+        height: 330px;
     }
-
-    footer {
-        flex-direction: column;
-    }
-    .logo img {
-        display: none;
+    .d-posts p {
+        height: 150px;
     }
     .endereco, .contato {
-        margin: 0 auto;
-        width: 70%;
-    }
-    .contato > ul > li > img {
-        margin-left: -32px; 
+        padding-top: 7vw;
     }
 }
 @media only screen and (max-width: 768px) {
@@ -333,18 +298,54 @@ footer {
         margin-left: -32px; 
     }
 }
-@media only screen and (max-width: 1024px) {
-    .d-projects .texto {
-        margin-left: 200px;
+@media only screen and (max-width: 550px) {
+    .d-skills {
+        flex-direction: column;
+    }
+
+    .d-projects {
+        flex-direction: column;
+        margin: 10px auto ;
+        width: 90% ;
+    }
+    .d-projects img {
+        width: 361px ;
+        height: 255px ;
+    }
+    .d-projects .texto {        
+        margin-left: 0px;
+    }
+    .d-projects p {
+        width: 70vw ;
+    }
+    .saiba-mais {
+        margin-top: 5vw ;
+        margin-bottom: 3vw ;
+    }
+
+    .d-posts {
+        flex-direction: column;
+        margin: 0 auto ;
+        width: 100%;
     }
     .d-posts .card {
-        height: 330px;
+        margin: 10px auto ;
+        height: 45vh ;
     }
-    .d-posts p {
-        height: 150px;
+
+    footer {
+        flex-direction: column;
+    }
+    .logo img {
+        display: none;
     }
     .endereco, .contato {
-        padding-top: 7vw;
+        margin: 0 auto;
+        width: 70%;
+    }
+    .contato > ul > li > img {
+        margin-left: -32px; 
     }
 }
+
 /* Fim: Medias de renderização */
