@@ -1,10 +1,28 @@
-<h1>Olá, me chamo Bruno Domingues, sou brasileiro de 24 anos.</h1>
-
-<p>Esse é meu porfólio, onde vou trazer as seguintes informações:</p>
-
+<h1>Porfólio</h1>
+<p>
+    Desenvolvimento de uma página para porfólio, afim de demonstrar alguns projetos desenvolvidos por mim mesmo, <br>
+    além de alguns posts de LinkeDin que achei importante compartilhar para explicar alguns tópicos e dicas para boas práticas.
+</p>
 <ul>
-    <li>#01: Minha história como desenvolvedor;</li>
-    <li>#02: Skills</li>
-    <li>#03: Um pouco dos projetos que já trabalhei;</li>
-    <li>#04: Contato</li>
+    <p>De forma prática e direta, usei as seguintes tecnologias:</p>
+    <li> > HTML 5</li>
+    <li> > CSS 3</li>
+    <li> > Bootstrap v5.0.2</li>
 </ul>
+<style>
+    h1 {
+        font-weight: 600;
+        font-size: 64px;
+    }
+    p {
+        font-weight: 300;
+        font-size: 32px;
+        line-height: normal;
+    }
+    li {
+        font-weight: 300;
+        font-size: 32px;
+        line-height: normal;
+        list-style: none;
+    }
+</style>
