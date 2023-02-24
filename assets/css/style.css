@@ -80,9 +80,6 @@ nav {
     .contato > ul > li > img {
         margin-left: -32px; 
     }
-    #myBtn {
-        display: none;
-    }
 }
 
 /* Fim: Menu */
@@ -116,7 +113,6 @@ h1 {
     display: flex;
     border: 1px solid #6b6a68;
     height: 100%;
-    padding-top: 30px;
     margin: 1vw 0 1vw 0;
     width: 98%;
 }
@@ -132,12 +128,12 @@ h1 {
 
 .d-projects img {
     width: 415px;
-    height: 301px;
+    height: 100%;
     margin-left: -0.8vw;
-    margin-top: -1.9vw;
 }
 .d-projects .texto {
-    padding-left: 10vw;
+    margin-left: 170px;
+    padding-top: 20px;
 }
 
 .tech {
@@ -185,7 +181,7 @@ h1 {
 .d-posts .card {
     border: 1px solid #0000002e;
     box-shadow: 0px 6px 10px 0px #0000002e;
-    height: 40vh;
+    height: 300px;
     margin-left: 10px;
 }
 
@@ -199,6 +195,7 @@ h1 {
 .d-posts p {
     font-size: 18px;
     padding: 20px 0px 0px 20px;
+    height: 130px;
     text-align: left;
     width: 95%;
 }
@@ -262,8 +259,10 @@ footer {
     padding-left: 5px;
     text-decoration: none;
 }
+
 /* Fim: Footer */
 
+/* Inicio: Botão top */
 #myBtn {
     display: none;
     position: fixed;
@@ -283,3 +282,4 @@ footer {
 #myBtn:hover {
     background-color: #4d4c4b;
 }
+/* Fim: Botão top */
