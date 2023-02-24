@@ -9,20 +9,3 @@
     <li> > CSS 3</li>
     <li> > Bootstrap v5.0.2</li>
 </ul>
-<style>
-    h1 {
-        font-weight: 600;
-        font-size: 64px;
-    }
-    p {
-        font-weight: 300;
-        font-size: 32px;
-        line-height: normal;
-    }
-    li {
-        font-weight: 300;
-        font-size: 32px;
-        line-height: normal;
-        list-style: none;
-    }
-</style>
